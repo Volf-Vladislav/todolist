@@ -22,21 +22,21 @@ export const styles = StyleSheet.create({
     },
     listElement: {
         flexDirection: 'row',
-        marginBottom: 32
+        marginBottom: 16
     },
     listText: {
         fontSize: 18,
         fontFamily: 'Inter',
         color: COLORS().defaultText,
         marginLeft: 16,
-        fontWeight: 500,
+        fontWeight: '500',
     },
     listTextDisabled: {
         fontSize: 18,
         fontFamily: 'Inter',
         color: COLORS().disabledText,
         marginLeft: 16,
-        fontWeight: 500,
+        fontWeight: '500',
     },
     titleDisabled: {
         fontSize: 18,
@@ -46,8 +46,12 @@ export const styles = StyleSheet.create({
         marginBottom: 16,
         marginTop: 20
     },
-    listElementDisabled: {
-        flexDirection: 'row',
-        marginBottom: 16
+    listTextDate: {
+        fontSize: 14,
+        fontFamily: 'Inter',
+        color: COLORS().defaultText,
+        marginLeft: 16,
+        marginTop: 4,
+        fontWeight: '400',
     }
 })
