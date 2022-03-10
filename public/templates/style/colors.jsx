@@ -17,7 +17,7 @@ const lightTheme = {
 }
 
 export function COLORS() {
-    const theme = 'dark'
+    const theme = 'light'
 
     if(theme == 'dark') {
         return darkTheme
