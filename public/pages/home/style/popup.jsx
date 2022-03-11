@@ -37,6 +37,9 @@ export const styles = StyleSheet.create({
         height: 40,
         margin: 12,
         padding: 10,
-        borderRadius: 5
+        borderRadius: 5,
+        borderBottomWidth: 1,
+        borderBottomColor: '#939292',
+        color: COLORS().defaultText
     }
 })
