@@ -10,7 +10,7 @@ export const styles = StyleSheet.create({
         fontSize: 32,
         fontWeight: '700',
         color: COLORS().title,
-        fontFamily: 'Inter'
+         
     },
     statusContainer: {
         flexDirection: 'row'
@@ -20,7 +20,7 @@ export const styles = StyleSheet.create({
         fontWeight: '600',
         marginTop: 8,
         color: COLORS().disabledText,
-        fontFamily: 'Inter'
+         
     },
     separator: {
         width: '100%',

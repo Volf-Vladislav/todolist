@@ -27,7 +27,7 @@ export const styles = StyleSheet.create({
         fontSize: 20,
         fontWeight: '500',
         color: COLORS().title,
-        fontFamily: 'Inter',
+          
         paddingRight: 20
     },
     settingsItem: {
@@ -40,6 +40,6 @@ export const styles = StyleSheet.create({
         color: COLORS().defaultText,
         fontWeight: '500',
         fontSize: 16,
-        fontFamily: 'Inter'
+         
     }
 })

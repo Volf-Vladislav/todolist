@@ -24,7 +24,7 @@ export const styles = StyleSheet.create({
         fontSize: 20,
         fontWeight: '500',
         color: COLORS().title,
-        fontFamily: 'Inter',
+          
         paddingRight: 20
     },
     inputContainer: {

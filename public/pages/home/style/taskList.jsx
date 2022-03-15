@@ -1,4 +1,4 @@
-import { StyleSheet } from 'react-native'
+import { StyleSheet, Dimensions } from 'react-native'
 import { COLORS } from './../../../templates/style/colors'
 
 export const styles = StyleSheet.create({
@@ -6,10 +6,11 @@ export const styles = StyleSheet.create({
         flexDirection: 'column',
         padding: 16,
         paddingTop: 0,
+        height: Dimensions.get('window').height - 200
     },
     title: {
         fontSize: 18,
-        fontFamily: 'Inter',
+          
         color: COLORS().title,
         fontWeight: '700',
         marginBottom: 16
@@ -28,21 +29,21 @@ export const styles = StyleSheet.create({
     },
     listText: {
         fontSize: 18,
-        fontFamily: 'Inter',
+          
         color: COLORS().defaultText,
         marginLeft: 16,
         fontWeight: '500',
     },
     listTextDisabled: {
         fontSize: 18,
-        fontFamily: 'Inter',
+          
         color: COLORS().disabledText,
         marginLeft: 16,
         fontWeight: '500',
     },
     titleDisabled: {
         fontSize: 18,
-        fontFamily: 'Inter',
+          
         color: COLORS().title,
         fontWeight: '700',
         marginBottom: 16,
@@ -50,7 +51,7 @@ export const styles = StyleSheet.create({
     },
     listTextDate: {
         fontSize: 14,
-        fontFamily: 'Inter',
+          
         color: COLORS().defaultText,
         marginLeft: 16,
         marginTop: 4,
