@@ -1,4 +1,6 @@
 import React from 'react'
+import AsyncStorage from '@react-native-async-storage/async-storage'
+
 import { Provider, useSelector } from 'react-redux'
 import { createStore } from 'redux'
 
