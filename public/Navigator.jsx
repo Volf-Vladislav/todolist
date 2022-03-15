@@ -8,10 +8,15 @@ import { rootReduсer, initialState } from './redux/rootReducer'
 
 import Home from './pages/home/Home'
 import Authenfication from './pages/authenfication/Authenfication'
+import { initTheme } from './templates/style/colors'
 
 const store = createStore(rootReduсer, initialState)
 
 function Navigator() {
+    React.useEffect(() => {
+        initTheme('light')
+    }, [])
+
     return (
         <Provider store={store}>
             <Navigate />

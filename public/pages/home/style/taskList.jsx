@@ -15,14 +15,16 @@ export const styles = StyleSheet.create({
         marginBottom: 16
     },
     checkbox: {
-        alignSelf: 'center',
+        borderColor: COLORS().checkbox,
         width: 20,
         height: 20,
         borderRadius: 5,
+        borderWidth: 1
     },
     listElement: {
         flexDirection: 'row',
-        marginBottom: 16
+        marginBottom: 16,
+        alignItems: 'center'
     },
     listText: {
         fontSize: 18,
